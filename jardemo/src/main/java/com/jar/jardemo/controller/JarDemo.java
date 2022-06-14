@@ -11,7 +11,7 @@ public class JarDemo {
 	
 	@GetMapping("/get/{no}")
 	public String getName(@PathVariable int no) {
-		return "sathish "+no;
+		return "sathish --"+no;
 	}
 
 }
